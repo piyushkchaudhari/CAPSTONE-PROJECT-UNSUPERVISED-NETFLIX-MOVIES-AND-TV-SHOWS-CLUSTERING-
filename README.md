@@ -53,25 +53,46 @@ Only two types of types are present in this dataset namely Movies and TV Shows. 
 
 ### 4. Clustering similar content by matching text-based features
 I have clustered Netflix Moves and TV Shows on the basis of Genre and Description.
+
 For clustering, first of all punctuation marks have been removed by using 'NLTK' library in text format, then by converting the format to lower case, stop words have been removed. I used porter stemming to get the base format in words.
+
 Through TFIDF Vectorization, I created a total of 10000 attributes.
+
 I used Principal Component Analysis (PCA) to handle the curse of dimensionality. 3000 components were able to capture more than 88% of variance, and hence, the number of components were restricted to 3000.
+
 To find K, the silhouette scores and elbow method are used. 13 clusters have scored the highest according to silhouette scores
+
 Clusters are created using the K-Means clustering algorithm, and the optimal number of clusters is 13.
+
 Clusters are named using wordcloud
+
 Cluster 1 :- Independent,International
+
 Cluster 2 :-Tv Show,TV Comedy
+
 Cluster 3 :-Action, Adventure
+
 Cluster 4 :-Horror,Trillers
+
 Cluster 5 :-RealityTV,Docuseries
+
 Cluster 6 :-Family, Children
+
 Cluster 7 :-Documentary
+
 Cluster 8 :-Find,Family,International
+
 Cluster 9 :-Talk Show,Comedy Talk
+
 Cluster 10 :-TV Dramas,Love
+
 Cluster 11 :-Romantic Movies,Love
+
 Cluster 12 :-Science Nature,Sci-fi
+
 Cluster 13 :-Musical
+
 Final cluster visualization done using plotly library.
+
 A content based recommender system was built using the similarity matrix obtained after using cosine similarity. This recommender system will make 10 recommendations to the user based on the type of show they watched.
 
