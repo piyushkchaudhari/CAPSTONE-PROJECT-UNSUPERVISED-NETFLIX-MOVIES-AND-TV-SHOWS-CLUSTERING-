@@ -40,6 +40,7 @@ Only two types of types are present in this dataset namely Movies and TV Shows. 
 - Highest Number of Movies and Tv Show produced by Country
 - Top director with higest count of movies and tvshows
 - Top rating with highest count of movies and tv show
+![image](https://github.com/piyushkchaudhari/CAPSTONE-PROJECT-UNSUPERVISED-NETFLIX-MOVIES-AND-TV-SHOWS-CLUSTERING-/assets/123857050/432350bb-e7d1-4250-addf-4ea9ba57c5ab)
 
 ### 2. Understanding what type content is available in different countries
 - Number of Movies and Tv Show produced by Country
