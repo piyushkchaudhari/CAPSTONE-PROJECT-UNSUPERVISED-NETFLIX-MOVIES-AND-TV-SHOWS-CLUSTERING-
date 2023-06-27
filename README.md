@@ -49,6 +49,7 @@ Only two types of types are present in this dataset namely Movies and TV Shows. 
 - Average Movie Duration by Country
 - Country wise Rating trend
 - Country wise Genres trend
+![image](https://github.com/piyushkchaudhari/CAPSTONE-PROJECT-UNSUPERVISED-NETFLIX-MOVIES-AND-TV-SHOWS-CLUSTERING-/assets/123857050/46fb3271-5fb8-4f1f-a7e8-a2dadcda4581)
 
 ### 3. Is Netflix has increasingly focusing on TV rather than movies in recent years.
 ![image](https://github.com/piyushkchaudhari/CAPSTONE-PROJECT-UNSUPERVISED-NETFLIX-MOVIES-AND-TV-SHOWS-CLUSTERING-/assets/123857050/0d8b0083-8d76-4fff-bc0e-45ce47fc42cf)
@@ -97,4 +98,6 @@ Cluster 13 :-Musical
 Final cluster visualization done using plotly library.
 
 A content based recommender system was built using the similarity matrix obtained after using cosine similarity. This recommender system will make 10 recommendations to the user based on the type of show they watched.
+![image](https://github.com/piyushkchaudhari/CAPSTONE-PROJECT-UNSUPERVISED-NETFLIX-MOVIES-AND-TV-SHOWS-CLUSTERING-/assets/123857050/b5700f8d-8a9e-48c4-bb83-241b39ad3118)
 
+![image](https://github.com/piyushkchaudhari/CAPSTONE-PROJECT-UNSUPERVISED-NETFLIX-MOVIES-AND-TV-SHOWS-CLUSTERING-/assets/123857050/90cc5970-4e64-454f-bec1-cb1f430e6ffa)
