@@ -63,9 +63,9 @@ Through TFIDF Vectorization, I created a total of 10000 attributes.
 
 I used Principal Component Analysis (PCA) to handle the curse of dimensionality. 3000 components were able to capture more than 88% of variance, and hence, the number of components were restricted to 3000.
 
-To find K, the silhouette scores and elbow method are used. 13 clusters have scored the highest according to silhouette scores
+To find K, the silhouette scores and elbow method are used. 16 clusters have scored the highest according to silhouette scores
 
-Clusters are created using the K-Means clustering algorithm, and the optimal number of clusters is 13.
+Clusters are created using the K-Means clustering algorithm, and the optimal number of clusters is 16.
 
 Final cluster visualization done using plotly library.
 
