@@ -67,34 +67,6 @@ To find K, the silhouette scores and elbow method are used. 13 clusters have sco
 
 Clusters are created using the K-Means clustering algorithm, and the optimal number of clusters is 13.
 
-Clusters are named using wordcloud
-
-Cluster 1 :- Independent,International
-
-Cluster 2 :-Tv Show,TV Comedy
-
-Cluster 3 :-Action, Adventure
-
-Cluster 4 :-Horror,Trillers
-
-Cluster 5 :-RealityTV,Docuseries
-
-Cluster 6 :-Family, Children
-
-Cluster 7 :-Documentary
-
-Cluster 8 :-Find,Family,International
-
-Cluster 9 :-Talk Show,Comedy Talk
-
-Cluster 10 :-TV Dramas,Love
-
-Cluster 11 :-Romantic Movies,Love
-
-Cluster 12 :-Science Nature,Sci-fi
-
-Cluster 13 :-Musical
-
 Final cluster visualization done using plotly library.
 
 A content based recommender system was built using the similarity matrix obtained after using cosine similarity. This recommender system will make 10 recommendations to the user based on the type of show they watched.
