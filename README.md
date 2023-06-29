@@ -70,6 +70,7 @@ Clusters are created using the K-Means clustering algorithm, and the optimal num
 Final cluster visualization done using plotly library.
 
 A content based recommender system was built using the similarity matrix obtained after using cosine similarity. This recommender system will make 10 recommendations to the user based on the type of show they watched.
-![image](https://github.com/piyushkchaudhari/CAPSTONE-PROJECT-UNSUPERVISED-NETFLIX-MOVIES-AND-TV-SHOWS-CLUSTERING-/assets/123857050/b5700f8d-8a9e-48c4-bb83-241b39ad3118)
+![image](https://github.com/piyushkchaudhari/CAPSTONE-PROJECT-UNSUPERVISED-NETFLIX-MOVIES-AND-TV-SHOWS-CLUSTERING-/assets/123857050/fc995ccd-add6-4ff2-814d-c6a374019028)
+
 
 ![image](https://github.com/piyushkchaudhari/CAPSTONE-PROJECT-UNSUPERVISED-NETFLIX-MOVIES-AND-TV-SHOWS-CLUSTERING-/assets/123857050/90cc5970-4e64-454f-bec1-cb1f430e6ffa)
